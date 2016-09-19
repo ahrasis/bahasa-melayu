@@ -1,7 +1,7 @@
 {
 	"name": "ahrasis/flarum-ext-malaysian",
 	"type": "flarum-extension",
-	"description": "Pakej Bahasa Malaysia.",
+	"description": "Pakej Bahasa Malaysia",
 	"keywords": ["locale"],
 	"license": "MIT",
 	"require": {
