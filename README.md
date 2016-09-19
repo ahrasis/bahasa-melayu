@@ -13,8 +13,7 @@ Pakej Bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
 2. Ekstrak dan muatnaik ke dalam folder **vendor\flarum**.
 3. Ubah nama folder **flarum-ext-malaysian-master** menjadi **flarum-ext-malaysian**.
 4. Buka fail **vendor\composer\installed.json** dan tambahkan ini
-
-    {
+`    {
         "name": "flarum/flarum-ext-malaysian",
         "version": "v1.0.0-dev",
         "require": {
@@ -46,8 +45,7 @@ Pakej Bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
         "keywords": [
             "locale"
         ]
-    }
-
+    }`
 5. Masuk ke panel kawalan admin Flarum, klik **Extensions**.
 6. Aktifkan.
 
