@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Berhenti Ikuti
-      unignore_button: Berhenti Abaikan
+      unfollow_button: Nyah Diikuti
+      unignore_button: Nyah Diabaikan
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -51,4 +51,4 @@ flarum-subscriptions:
   ref:
     follow: Ikuti
     following: Diikuti
-    ignoring: Abaikan
+    ignoring: Diabaikan
