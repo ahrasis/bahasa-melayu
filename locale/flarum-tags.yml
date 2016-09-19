@@ -1,0 +1,101 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: Warna
+      delete_tag_button: Padam Tag
+      delete_tag_confirmation: "Anda pasti mahu memadamkan tag ini? Diskusi tag tidak akan dipadam."
+      description_label: Deskripsi
+      hide_label: Sembunyikan daripada Semua Diskusi
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Slug
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Urus senarai tag yang ada bagi menyusun diskusi.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: Benarkan edit tag
+      restrict_by_tag_heading: Sekat Dengan Tag
+      tag_discussions_label: Diskusi Tag
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " kepada "
+      required_primary_heading: Nombor Yang Diperlukan Bagi Tag Utama
+      required_primary_text: Masukkan minima dan maksima nombor tag utama yang boleh digunakan dalam satu diskusi.
+      required_secondary_heading: Nombor Yang Diperlukan Bagi Tag Sampingan
+      required_secondary_text: Masukkan minima dan maksima nombor tag sampingan yang boleh digunakan dalam satu diskusi.
+      title: Tetapan Tag
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "Tag digunakan bagi menkategorikan diskusi. Tag utama adalah seperti kategori forum tradisional: yang boleh diaturk dalam dua level hirarki. Tag sampingan tiada hirarki atau aturan, tetapi sangat berguna untuk kategori mikro."
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: Tag Utama
+      secondary_heading: Tag Sampingan
+      settings_button: Tetapan
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "Pilih satu tag utama|Pilih {count} tag utama"
+      choose_secondary_placeholder: "Pilih satu lagi tag|Pilih {count} lagi tag"
+      edit_title: "Edit Tag Bagi {title}"
+      submit_button: => core.ref.okay
+      title: Pilih Tag Bagi Diskusi Anda
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Pilih Tag
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Edit Tag
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: More...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: Buang Tag
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username} menambah {tagsAdded}."
+      added_and_removed_tags_text: "{username} menambah {tagsAdded} dan membuang {tagsRemoved}."
+      removed_tags_text: "{username} membuang {tagsRemoved}."
+      tags_text: "{tags} tag|{tags} tag"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: Dipadamkan
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: Cipta Tag
+    name: Nama
+    tags: Tag
