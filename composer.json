@@ -1,7 +1,7 @@
 {
 	"name": "ahrasis/flarum-ext-malaysian",
 	"type": "flarum-extension",
-	"description": "Malaysian Language Pack.",
+	"description": "Pakej Bahasa Malaysia.",
 	"keywords": ["locale"],
 	"license": "MIT",
 	"require": {
@@ -12,7 +12,7 @@
 			"dev-master": "0.1.x-dev"
 		},
 		"flarum-extension": {
-			"title": "Malaysian",
+			"title": "Malaysia",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundColor": "#00247d",
@@ -22,7 +22,7 @@
 		},
 		"flarum-locale": {
 			"code": "my",
-			"title": "Malaysian"
+			"title": "Malaysia"
 		}
 	}
 }
