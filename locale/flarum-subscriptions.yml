@@ -15,7 +15,7 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Berhenti Ikut
+      unfollow_button: Berhenti Ikuti
       unignore_button: Berhenti Abaikan
 
     # These translations are used on the index page, peripheral to the discussion list.
@@ -39,7 +39,7 @@ flarum-subscriptions:
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: Jangan maklumkan. Sembunyikan daripada senarai diskusi.
       not_following_button: Tidak Mengikuti
-      not_following_text: "Maklumkan bila apabila @disebut sahaja."
+      not_following_text: "Maklumkan apabila @disebut sahaja."
       notify_alert_tooltip: Dapatkan pemberitahuan forum apabila ada pos baru
       notify_email_tooltip: Dapatkan emel bila ada pos baru
 
@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Ikut
-    following: Mengikuti
-    ignoring: Mengabaikan
+    follow: Ikuti
+    following: Diikuti
+    ignoring: Abaikan
