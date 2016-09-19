@@ -26,7 +26,7 @@ Pakej Bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
                 "dev-master": "0.1.x-dev"
             },
             "flarum-extension": {
-                "title": "Malaysian",
+                "title": "Malaysia",
                 "icon": {
                     "image": "icon.svg",
                     "backgroundColor": "#00247d",
@@ -36,13 +36,13 @@ Pakej Bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
             },
             "flarum-locale": {
                 "code": "my",
-                "title": "Malaysian"
+                "title": "Malaysia"
             }
         },
         "license": [
             "MIT"
         ],
-        "description": "Pakej Bahasa Malaysia.",
+        "description": "Pakej Bahasa Malaysia",
         "keywords": [
             "locale"
         ]
