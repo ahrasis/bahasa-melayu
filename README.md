@@ -47,6 +47,7 @@ Pakej Bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
             "locale"
         ]
     }`
+
 5. Masuk ke panel kawalan admin Flarum, klik **Extensions**.
 6. Aktifkan.
 
