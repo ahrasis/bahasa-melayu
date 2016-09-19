@@ -10,7 +10,7 @@ flarum-flags:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       flag_posts_label: Tandakan pos
-      view_flags_label: Lihat pos bertanda
+      view_flags_label: Lihat Pos Bertanda
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
@@ -58,4 +58,4 @@ flarum-flags:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     flag_post: Tandakan Pos
-    flagged_posts: Pos Ditandakan
+    flagged_posts: Pos Bertanda
