@@ -40,7 +40,7 @@ core:
       forum_description_text: Masukkan satu atau dua ayat pendek menerangkan komuniti anda. Ini akan kelihatan dalam tag meta dan menonjol dalam enjin carian.
       forum_title_heading: Nama Forum
       home_page_heading: Laman Utama
-      home_page_text: "Pilih laman yang ahli akan melihat terlebih dahulu apabila mereka melawati forum anda. Jika memasukkan nilai tambahan, sila gunakan laluan relatif ke dasar forum."
+      home_page_text: "Pilih laman utama yang akan dilihat ahli terlebih dahulu semasa mereka melawati forum anda. Jika memasukkan nilai tambahan, sila gunakan laluan relatif ke dasar forum."
       saved_message: Ubahsuai anda sudah disimpan.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Rentang Aluan
@@ -129,24 +129,24 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: Benarkan menamakan semula
-      allow_post_editing_label: Benarkan mengedit pos
+      allow_renaming_label: Ubah Tajuk
+      allow_post_editing_label: Edit Pos
       create_heading: Cipta
-      delete_discussions_forever_label: Padam diskusi selama-lamanya
+      delete_discussions_forever_label: Padam Diskusi Selama-lamanya
       delete_discussions_label: Padam Diskusi
-      delete_posts_forever_label: Padam pos selama-lamanya
-      edit_and_delete_posts_label: Edit dan padam pos
+      delete_posts_forever_label: Padam Pos Selama-lamanya
+      edit_and_delete_posts_label: Edit Dan Padam Pos
       global_heading: Semua
-      moderate_heading: Sebahagian
+      moderate_heading: Lain-lain
       new_group_button: Grup
       participate_heading: Sertai
       read_heading: Baca
-      rename_discussions_label: Namakan semula diskusi
-      reply_to_discussions_label: Jawab diskusi
+      rename_discussions_label: Ubah Tajuk
+      reply_to_discussions_label: Jawab Diskusi
       sign_up_label: Daftar
       start_discussions_label: Mulakan Diskusi
       view_discussions_label: Lihat Diskusi
-      view_post_ips_label: Lihat alamat IP pos
+      view_post_ips_label: Lihat Alamat IP Pos
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -223,14 +223,14 @@ core:
       delete_confirmation: "Anda pasti anda mahu memadamkan diskusi ini?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Log Masuk Bagi Menjawab
-      rename_button: Namakan Semula
+      rename_button: Ubah Tajuk
       rename_text: "Masukkan tajuk baru bagi diskusi ini:"
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: Kelihatannya tiada diskusi di sini.
+      empty_text: Tiada sebarang diskusi di sini.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Tandakan Sudah Dibaca
       replied_text: "{username} menjawab {ago}"
@@ -341,7 +341,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Seseorang menamakan diskusi yang saya mulakan
+      notify_discussion_renamed_label: Seseorang mengubah tajuk diskusi yang saya mulakan
       privacy_disclose_online_label: Benarkan yang lain melihat saya ada
       privacy_heading: Privasi
       title: => core.ref.settings
@@ -362,10 +362,10 @@ core:
       avatar_remove_button: Buang
       avatar_upload_button: Muatnaik
       avatar_upload_tooltip: Muatnaik avatar baru
-      bio_placeholder: Write something about yourself
+      bio_placeholder: Tulis sesuatu tentang diri anda
       discussions_link: => core.ref.discussions
-      in_discussion_text: "In {discussion}"
-      joined_date_text: "Joined {ago}"
+      in_discussion_text: "Dalam {discussion}"
+      joined_date_text: "Menyertai {ago}"
       online_text: Ada
       posts_load_more_button: => core.ref.load_more
       posts_link: Pos
@@ -373,7 +373,7 @@ core:
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: Pilihan
       delete_button: => core.ref.delete
       delete_confirmation: "Anda pasti anda mahu memadamkan pengguna ini? Semua pos pengguna ini akan turut dipadamkan."
       edit_button: => core.ref.edit
@@ -527,7 +527,7 @@ core:
     admins: Pengurus
     guest: Tetamu
     guests: Tetamu
-    member: Tetamu
-    members: Tetamu
+    member: Ahli
+    members: Ahli
     mod: Pemudahcara
     mods: Pemudahcara
