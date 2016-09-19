@@ -12,7 +12,8 @@ Pakej Bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
 1. [Muatturun](https://github.com/ahrasis/flarum-ext-malaysian/archive/master.zip).
 2. Ekstrak dan muatnaik ke dalam folder **vendor\flarum**.
 3. Ubah nama folder **flarum-ext-malaysian-master** menjadi **flarum-ext-malaysian**.
-4. Buka fail **vendor\composer\installed.json** dan tambahkan ini
+4. Buka fail **vendor\composer\installed.json** dan tambahkan ini:
+
 `    {
         "name": "flarum/flarum-ext-malaysian",
         "version": "v1.0.0-dev",
