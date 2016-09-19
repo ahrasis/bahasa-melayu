@@ -1,14 +1,12 @@
 ## Malaysian Language Pack For [Flarum](http://flarum.org/)
 
-Pakej bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
+Pakej Bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
 
 ## Info
-**Versi**:  1.0.2-dev | **Syarat**: Flarum 0.1.0 Beta 5 | **Kesesuaian**: Flarum 0.1.0 Beta 5
+**Versi**:  1.0.0-dev | **Syarat**: Flarum 0.1.0 Beta 5 | **Kesesuaian**: Flarum 0.1.0 Beta 5
 
- - Belum diterjemahkan dengan sempurna.
- - Ada yang belum diterjemahkan.
- - Teks bahasa Inggeris masih ada dalam bentuk yaml komentar.
- - Sesiapa yang ingin terlibat membantu terjemahan, mereka  boleh melakukannya dengan mudah.
+ - Sudah diterjemahkan dengan sempurna.
+ - Tiada yang belum diterjemahkan.
 
 ### Cara
 1. [Muatturun](https://github.com/ahrasis/flarum-ext-malaysian/archive/master.zip).
@@ -18,7 +16,7 @@ Pakej bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
 
     {
         "name": "flarum/flarum-ext-malaysian",
-        "version": "v1.0.2-dev",
+        "version": "v1.0.0-dev",
         "require": {
             "flarum/core": "^0.1.0-beta.5"
         },
@@ -44,7 +42,7 @@ Pakej bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
         "license": [
             "MIT"
         ],
-        "description": "Malaysia Language Pack.",
+        "description": "Pakej Bahasa Malaysia.",
         "keywords": [
             "locale"
         ]
