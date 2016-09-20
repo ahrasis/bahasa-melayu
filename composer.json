@@ -1,13 +1,14 @@
 {
 	"name": "ahrasis/flarum-ext-malaysian",
+	"version": "v.1.0-beta.5",
 	"type": "flarum-extension",
 	"description": "Pakej Bahasa Malaysia",
 	"keywords": ["locale"],
 	"license": "MIT",
-	"authors": {
+	"authors": [{
 		"name": "Hj Ahmad Rasyid Hj Ismail",
 		"email": "ahrasis@gmail.com"
-	},
+	}],
 	"support": {
 	        "issues": "https://github.com/ahrasis/flarum-ext-malaysian/issues",
 	        "source": "https://github.com/ahrasis/flarum-ext-malaysian",
