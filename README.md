@@ -8,24 +8,36 @@ Pakej Bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
  - Sudah diterjemahkan dengan sempurna.
  - Tiada yang belum diterjemahkan.
 
-### Cara
+### Cara Pemasangan Utama
+Jalankan 'composer require ahrasis/flarum-ext-malaysian dev-master' di terminal ssh anda. Pastikan anda berada pada dasar laman web flarum anda. Tunggu sehingga selesai.
+
+### Cara Pemasangan Alternatif
 1. [Muatturun](https://github.com/ahrasis/flarum-ext-malaysian/archive/master.zip).
 2. Ekstrak dan muatnaik ke dalam folder **vendor\flarum**.
 3. Ubah nama folder **flarum-ext-malaysian-master** menjadi **flarum-ext-malaysian**.
 4. Buka fail **vendor\composer\installed.json** dan tambahkan ini:
 `    {
-        "name": "flarum/flarum-ext-malaysian",
+        "name": "ahrasis/flarum-ext-malaysian",
         "version": "v0.1.0-beta.5",
+        "version_normalized": "0.1.0-beta.5-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ahrasis/flarum-ext-malaysian.git",
+            "reference": "964ad5b7223dbef387e9c0ad5f78c41a8c909a33"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ahrasis/flarum-ext-malaysian/zipball/964ad5b7223dbef387e9c0ad5f78c41a8c909a33",
+            "reference": "964ad5b7223dbef387e9c0ad5f78c41a8c909a33",
+            "shasum": ""
+        },
         "require": {
             "flarum/core": "^0.1.0-beta.5"
         },
         "type": "flarum-extension",
         "extra": {
-            "branch-alias": {
-                "dev-master": "0.1.x-dev"
-            },
             "flarum-extension": {
-                "title": "Malaysia",
+                "title": "Bahasa Malaysia",
                 "icon": {
                     "image": "icon.svg",
                     "backgroundColor": "#00247d",
@@ -35,11 +47,19 @@ Pakej Bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
             },
             "flarum-locale": {
                 "code": "my",
-                "title": "Malaysia"
+                "title": "Bahasa Malaysia"
             }
         },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Hj Ahmad Rasyid Hj Ismail",
+                "email": "ahrasis@gmail.com"
+            }
         ],
         "description": "Pakej Bahasa Malaysia",
         "keywords": [
