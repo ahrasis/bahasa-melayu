@@ -12,7 +12,7 @@
     ],
     "support": {
         "issues": "https://github.com/ahrasis/flarum-ext-malaysian/issues",
-        "source": "https://github.com/ahrasis/flarum-ext-malaysian"
+        "source": "https://github.com/ahrasis/flarum-ext-malaysian",
         "site": "http://flarum.sch.my",
     },
     "require": {
