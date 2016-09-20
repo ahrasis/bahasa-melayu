@@ -3,7 +3,7 @@
 Pakej Bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
 
 ## Info
-**Versi**: v.1.0-beta.5 | **Syarat**: Flarum v.1.0-beta.5 | **Kesesuaian**: Flarum v.1.0-beta.5
+**Versi**: v0.1.0-beta.5 | **Syarat**: Flarum v0.1.0-beta.5 | **Kesesuaian**: Flarum v0.1.0-beta.5
 
  - Sudah diterjemahkan dengan sempurna.
  - Tiada yang belum diterjemahkan.
@@ -15,7 +15,7 @@ Pakej Bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
 4. Buka fail **vendor\composer\installed.json** dan tambahkan ini:
 `    {
         "name": "flarum/flarum-ext-malaysian",
-        "version": "v.1.0-beta.5",
+        "version": "v0.1.0-beta.5",
         "require": {
             "flarum/core": "^0.1.0-beta.5"
         },
