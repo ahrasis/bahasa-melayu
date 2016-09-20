@@ -1,6 +1,6 @@
-## Malaysian Language Pack For [Flarum](http://flarum.org/)
+## Malaysian Language Pack For [Flarum](https://discuss.flarum.org/d/3787-malaysian-language-pack-for-flarum)
 
-Pakej Bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
+Pakej Bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.sch.my/)
 
 ## Info
 **Versi**: v0.1.0-beta.5 | **Syarat**: Flarum v0.1.0-beta.5 | **Kesesuaian**: Flarum v0.1.0-beta.5
@@ -9,11 +9,11 @@ Pakej Bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.org/)
  - Tiada yang belum diterjemahkan.
 
 ### Cara Pemasangan Utama
-Jalankan 'composer require ahrasis/flarum-ext-malaysian dev-master' di terminal ssh anda. Pastikan anda berada pada dasar laman web flarum anda. Tunggu sehingga selesai.
+Jalankan `composer require ahrasis/flarum-ext-malaysian dev-master` di terminal ssh anda. Pastikan anda berada pada dasar laman web flarum anda. Tunggu sehingga selesai. Masuk ke panel kawalan admin flarum, klik **Extensions**, aktifkan Bahasa Malaysia. ;)
 
 ### Cara Pemasangan Alternatif
 1. [Muatturun](https://github.com/ahrasis/flarum-ext-malaysian/archive/master.zip).
-2. Ekstrak dan muatnaik ke dalam folder **vendor\flarum**.
+2. Ekstrak dan muatnaik ke dalam folder **vendor\ahrasis**.
 3. Ubah nama folder **flarum-ext-malaysian-master** menjadi **flarum-ext-malaysian**.
 4. Buka fail **vendor\composer\installed.json** dan tambahkan ini:
 `    {
