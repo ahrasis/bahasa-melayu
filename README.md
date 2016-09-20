@@ -16,7 +16,7 @@ Jalankan `composer require ahrasis/flarum-ext-malaysian dev-master` di terminal 
 2. Ekstrak dan muatnaik ke dalam folder **vendor\ahrasis**.
 3. Ubah nama folder **flarum-ext-malaysian-master** menjadi **flarum-ext-malaysian**.
 4. Buka fail **vendor\composer\installed.json** dan tambahkan ini:
->     {
+`     {
         "name": "ahrasis/flarum-ext-malaysian",
         "version": "v0.1.0-beta.5",
         "version_normalized": "0.1.0-beta.5-dev",
@@ -65,7 +65,7 @@ Jalankan `composer require ahrasis/flarum-ext-malaysian dev-master` di terminal 
         "keywords": [
             "locale"
         ]
-    }
+    }`
 5. Masuk ke panel kawalan admin Flarum, klik **Extensions**.
 6. Aktifkan.
 
