@@ -13,7 +13,7 @@
     "support": {
         "issues": "https://github.com/ahrasis/flarum-ext-malaysian/issues",
         "source": "https://github.com/ahrasis/flarum-ext-malaysian",
-        "site": "http://flarum.sch.my",
+        "site": "http://flarum.sch.my"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.5"
