@@ -46,7 +46,7 @@ moment.locale('ms-my', {
       },
       relativeTime : {
           future : 'dalam %s',
-          past : '%s yang lepas',
+          past : '%s lalu',
           s : 'beberapa saat',
           m : 'seminit',
           mm : '%d minit',
