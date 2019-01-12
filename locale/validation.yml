@@ -2,11 +2,13 @@ validation:
   accepted: ":attribute mestilah diterima."
   active_url: ":attribute bukanlah URL yang sah."
   after: ":attribute mestilah satu tarikh selepas :date."
+  after_or_equal: ":attribute mestilah satu tarikh selepas atau sama dengan :date."
   alpha: ":attribute hanya boleh mengandungi huruf."
   alpha_dash: ":attribute hanya boleh mengandungi huruf, nombor, dan sengkang."
   alpha_num: ":attribute hanya boleh mengandungi huruf dan nombor."
   array: ":attribute mestilah satu array."
   before: ":attribute mestilah satu tarikh sebelum :date."
+  before_or_equal: ":attribute mestilah satu tarikh sebelum atau sama dengan :date."
   between:
     numeric: ":attribute mestilah antara :min dan :max."
     file: ":attribute mestilah antara :min dan :max kilobit."
@@ -15,6 +17,7 @@ validation:
   boolean: "petak :attribute mestilah benar atau salah."
   confirmed: "Pengesahan :attribute tidak sepadan."
   date: ":attribute bukanlah satu tarikh yang sah."
+															  
   date_format: ":attribute tidak sepadan format :other."
   different: ":attribute dan :other mestilah berbeza."
   digits: ":attribute mestilah :digits nombor."
@@ -22,26 +25,51 @@ validation:
   dimensions: ":attribute terdapat dimensi imej yang tidak sah."
   distinct: "petak :attribute terdapat nilai bertindan."
   email: ":attribute mestilah satu alamat emel yang sah."
-  exists: "pilihan :attribute tidak sah."
-  filled: "petak :attribute diperlukan."
-  image: ":attribute mestilah satu image."
+  exists: ":attribute pilihan tidak sah."
+  file: ":attribute mestilah satu fail."
+  filled: "Petak :attribute mesti anda nilai."
+  gt:
+    numeric: ":attribute mestilah lebih besar daripada :value."
+    file: ":attribute mestilah lebih besar daripada :value kilobit."
+    string: ":attribute mestilah lebih besar daripada :value abjad."
+    array: ":attribute mestilah ada lebih daripada :value item."
+  gte:
+    numeric: ":attribute mestilah lebih besar atau sama :value."
+    file: ":attribute mestilah lebih besar atau sama :value kilobit."
+    string: ":attribute mestilah lebih besar atau sama :value abjad."
+    array: ":attribute mestilah ada :value item atau lebih."
+  image: ":attribute mestilah satu imej."
   in: "pilihan :attribute tidak sah."
   in_array: "petak :attribute tidak wujud dalam :other."
   integer: ":attribute mestilah satu nombor."
   ip: ":attribute mestilah alamat IP yang sah."
+  ipv4: ":attribute mestilah alamat sah IPv4."
+  ipv6: ":attribute mestilah alamat sah IPv6."
   json: ":attribute mestilah string JSON yang sah."
+  lt:
+    numeric: ":attribute mestilah kurang daripada :value."
+    file: ":attribute mestilah kurang daripada :value kilobit."
+    string: ":attribute mestilah kurang daripada :value abjad."
+    array: ":attribute mestilah ada kurang daripada :value item."
+  lte:
+    numeric: ":attribute mestilah kurang daripada atau sama :value."
+    file: ":attribute mestilah kurang daripada atau sama :value kilobit."
+    string: ":attribute mestilah kurang daripada atau sama :value abjad."
+    array: ":attribute mestilah tidak lebih daripada :value item."
   max:
     numeric: ":attribute tidak boleh melebihi :max."
     file: ":attribute tidak boleh melebihi :max kilobit."
     string: ":attribute tidak boleh melebihi :max abjad."
     array: ":attribute tidak boleh melebihi :max item."
   mimes: ":attribute mestilah satu fail jenis: :values."
+  mimetypes: ":attribute mestilah satu fail jenis: :values."
   min:
     numeric: ":attribute mestilah paling kurang :min."
     file: ":attribute mestilah paling kurang :min kilobit."
     string: ":attribute mestilah paling kurang :min abjad."
     array: ":attribute mestilah ada paling kurang :min item."
-  not_in: "pilihan :attribute tidak sah."
+  not_in: ":attribute pilihan tidak sah."
+  not_regex: "Format :attribute tidak sah."
   numeric: ":attribute mestilah satu nombor."
   present: "petak :attribute mestilah wujud."
   regex: ":attribute format tidak sah."
@@ -57,11 +85,14 @@ validation:
     numeric: ":attribute mestilah :size."
     file: ":attribute mestilah :size kilobit."
     string: ":attribute mestilah :size abjad."
-    array: ":attribute must contain :size item."
+    array: ":attribute mestilah ada :size item."
+  starts_with: ":attribute mestilah bermula dengan salah satu yang berikut: :values"
   string: ":attribute mestilah satu string."
   timezone: ":attribute mestilah satu zon yang sah."
-  unique: ":attribute telah diambil."
-  url: ":attribute format tidak sah."
+  unique: ":attribute telah diambil."."
+  uploaded: ":attribute gagal dimuatnaik."
+  url: "Format :attribute tidak sah."
+  uuid: ":attribute mestilah UUID yang sah."
 
   attributes:
     username: nama ahli
@@ -71,7 +102,5 @@ validation:
     content: isi
     name_singular: nama singular
     name_plural: nama plural
-
-  custom:
-    username:
-      regex: "nama ahli hanya boleh mengandungi huruf, nombor, dan sengkang."
+    tag_count_primary: nombor tag utama
+    tag_count_secondary: nombor tag kedua
