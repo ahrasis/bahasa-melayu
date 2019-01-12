@@ -17,6 +17,7 @@ validation:
   boolean: "petak :attribute mestilah benar atau salah."
   confirmed: "Pengesahan :attribute tidak sepadan."
   date: ":attribute bukanlah satu tarikh yang sah."
+  date_equals: ":attribute mestilah satu tarikh sama dengan :date."
   date_format: ":attribute tidak sepadan format :other."
   different: ":attribute dan :other mestilah berbeza."
   digits: ":attribute mestilah :digits nombor."
