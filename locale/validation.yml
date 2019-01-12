@@ -89,7 +89,7 @@ validation:
   starts_with: ":attribute mestilah bermula dengan salah satu yang berikut: :values"
   string: ":attribute mestilah satu string."
   timezone: ":attribute mestilah satu zon yang sah."
-  unique: ":attribute telah diambil."."
+  unique: ":attribute telah diambil."
   uploaded: ":attribute gagal dimuatnaik."
   url: "Format :attribute tidak sah."
   uuid: ":attribute mestilah UUID yang sah."
