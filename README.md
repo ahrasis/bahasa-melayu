@@ -3,7 +3,7 @@
 Pakej Bahasa Malaysia untuk menyesuaikan [Flarum](http://flarum.sch.my/)
 
 ## Info
-**Versi**: v0.1.0-beta.5 | **Syarat**: Flarum v0.1.0-beta.5 | **Kesesuaian**: Flarum v0.1.0-beta.5
+**Versi**: v0.1.0-beta.8.1 | **Syarat**: Flarum v0.1.0-beta.8.1 | **Kesesuaian**: Flarum v0.1.0-beta.8.1
 
  - Sudah diterjemahkan dengan sempurna.
  - Tiada yang belum diterjemahkan.
@@ -18,8 +18,8 @@ Jalankan `composer require ahrasis/flarum-ext-malaysian dev-master` di terminal 
 4. Buka fail **vendor\composer\installed.json** dan tambahkan ini:
 `     {
         "name": "ahrasis/flarum-ext-malaysian",
-        "version": "v0.1.0-beta.8",
-        "version_normalized": "0.1.0-beta.8-dev",
+        "version": "v0.1.0-beta.8.1",
+        "version_normalized": "0.1.0-beta.8.1-dev",
         "source": {
             "type": "git",
             "url": "https://github.com/ahrasis/flarum-ext-malaysian.git",
@@ -32,7 +32,7 @@ Jalankan `composer require ahrasis/flarum-ext-malaysian dev-master` di terminal 
             "shasum": ""
         },
         "require": {
-            "flarum/core": "^0.1.0-beta.8"
+            "flarum/core": "^0.1.0-beta.8.1"
         },
         "type": "flarum-extension",
         "extra": {
