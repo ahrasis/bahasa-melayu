@@ -13,10 +13,15 @@ flarum-suspend:
 
   # Translations in this namespace are used by the forum user interface.
   forum:
+    # These translations are used in the suspension notifications
+    notifications:
+      user_suspended_text: "{username} menggantung anda kerana {timeReadable}"
+      user_unsuspended_text: "{username} membebaskan anda"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
       indefinitely_label: Digantung tanpa had
+      limited_time_days_text: " hari"
       limited_time_label: Digantung untuk masa terhad...
       limited_time_days_text: " hari"
       not_suspended_label: Tidak digantung
@@ -30,4 +35,4 @@ flarum-suspend:
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      suspend_button: Gantung
+suspend_button: Gantung
