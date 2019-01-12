@@ -28,7 +28,7 @@ flarum-subscriptions:
 
     # These translations are used in the Settings page.
     settings:
-      forum_follow_after_reply_label: Ikuti diskusi yang saya jawab secara automatik
+      follow_after_reply_label: Ikuti diskusi yang saya jawab secara automatik
       notify_new_post_label: Seseorang mengepos dalam diskusi yang saya ikuti
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
