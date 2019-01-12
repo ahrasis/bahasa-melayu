@@ -1,6 +1,6 @@
 {
 	"name": "ahrasis/flarum-ext-malaysian",
-	"version": "v.1.0-beta.8",
+	"version": "v.1.0-beta.8.1",
 	"minimum-stability": "alpha",
 	"prefer-stable": true,
 	"type": "flarum-extension",
@@ -17,7 +17,7 @@
 	        "site": "http://flarum.sch.my"
 	},
 	"require": {
-	        "flarum/core": "^0.1.0-beta.8"
+	        "flarum/core": "^0.1.0-beta.8.1"
 	},
 	"extra": {
 		"flarum-extension": {
