@@ -18,8 +18,8 @@ Jalankan `composer require ahrasis/flarum-ext-malaysian dev-master` di terminal 
 4. Buka fail **vendor\composer\installed.json** dan tambahkan ini:
 `     {
         "name": "ahrasis/flarum-ext-malaysian",
-        "version": "v0.1.0-beta.5",
-        "version_normalized": "0.1.0-beta.5-dev",
+        "version": "v0.1.0-beta.8",
+        "version_normalized": "0.1.0-beta.8-dev",
         "source": {
             "type": "git",
             "url": "https://github.com/ahrasis/flarum-ext-malaysian.git",
@@ -32,7 +32,7 @@ Jalankan `composer require ahrasis/flarum-ext-malaysian dev-master` di terminal 
             "shasum": ""
         },
         "require": {
-            "flarum/core": "^0.1.0-beta.5"
+            "flarum/core": "^0.1.0-beta.8"
         },
         "type": "flarum-extension",
         "extra": {
