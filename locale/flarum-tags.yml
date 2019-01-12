@@ -13,7 +13,7 @@ flarum-tags:
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Warna
+      color_label: => core.ref.color
       delete_tag_button: Padam Tag
       delete_tag_confirmation: "Anda pasti mahu memadamkan tag ini? Tag Diskusi tidak akan dipadam."
       description_label: Deskripsi
@@ -71,6 +71,9 @@ flarum-tags:
     discussion_controls:
       edit_tags_button: Edit Tag
 
+    header:
+      back_to_tags_tooltip: Kembali ke Senarai Tag
+
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: More...
@@ -98,4 +101,4 @@ flarum-tags:
   ref:
     create_tag: Cipta Tag
     name: Nama
-    tags: Tag
+tags: Tag
