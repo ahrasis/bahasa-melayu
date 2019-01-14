@@ -1,6 +1,6 @@
 ## [Bahasa Melayu Untuk Flarum](https://discuss.flarum.org/d/3787-malaysian-language-pack-for-flarum)
 
-[Pakej Bahasa Malaysia untuk menyesuaikan Flarum](http://flarum.sch.my/)
+[Pakej Bahasa Melayu untuk menyesuaikan Flarum](http://flarum.sch.my/)
 
 ## Info
 **Versi**: v0.1.0-beta.8.1 | **Syarat**: Flarum v0.1.0-beta.8.1 | **Kesesuaian**: Flarum v0.1.0-beta.8.1
