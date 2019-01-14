@@ -1,5 +1,5 @@
 {
-  "name": "ahrasis/lang-malay",
+  "name": "ahrasis/bahasa-melayu",
   "description": "Bahasa Melayu untuk Flarum v0.1.0-beta.8 ke atas",
   "keywords": [
     "flarum",
@@ -18,8 +18,8 @@
     }
   ],
   "support": {
-      "source": "https://github.com/ahrasis/lang-malay",
-      "issues": "https://github.com/ahrasis/lang-malay/issues",
+      "source": "https://github.com/ahrasis/bahasa-melayu",
+      "issues": "https://github.com/ahrasis/bahasa-melayu/issues",
       "site": "httpa\s://flarum.sch.my"
   },
   "require": {
