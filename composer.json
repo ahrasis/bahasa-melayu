@@ -1,37 +1,43 @@
 {
-	"name": "ahrasis/flarum-ext-malaysian",
-	"version": "v.1.0-beta.8.1",
-	"minimum-stability": "alpha",
-	"prefer-stable": true,
-	"type": "flarum-extension",
-	"description": "Pakej Bahasa Malaysia",
-	"keywords": ["locale"],
-	"license": "MIT",
-	"authors": [{
-		"name": "Hj Ahmad Rasyid Hj Ismail",
-		"email": "ahrasis@gmail.com"
-	}],
-	"support": {
-	        "issues": "https://github.com/ahrasis/flarum-ext-malaysian/issues",
-	        "source": "https://github.com/ahrasis/flarum-ext-malaysian",
-	        "site": "http://flarum.sch.my"
-	},
-	"require": {
-	        "flarum/core": "^0.1.0-beta.8.1"
-	},
-	"extra": {
-		"flarum-extension": {
-			"title": "Bahasa Malaysia",
-			"icon": {
-				"image": "icon.svg",
-				"backgroundColor": "#00247d",
-				"backgroundSize": "cover",
-				"backgroundPosition": "center"
-			}
-		},
-		"flarum-locale": {
-			"code": "my",
-			"title": "Bahasa Malaysia"
-		}
-	}
+  "name": "ahrasis/lang-malay",
+  "description": "Bahasa Melayu untuk Flarum v0.1.0-beta.8 ke atas",
+  "keywords": [
+    "flarum",
+    "locale",
+    "Bahasa",
+    "Malaysia",
+    "Melayu"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hj Ahmad Rasyid Hj Ismail",
+      "email": "ahrasis@gmail.com"
+      "homepage": "https://flarum.sch.my"
+    }
+  ],
+  "support": {
+      "source": "https://github.com/ahrasis/lang-malay",
+      "issues": "https://github.com/ahrasis/lang-malay/issues",
+      "site": "httpa\s://flarum.sch.my"
+  },
+  "require": {
+    "flarum/core": "^0.1.0-beta.8"
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Bahasa Melayu",
+        "icon": {
+          "image": "icon.svg",
+          "backgroundColor": "#00247d",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center"
+        }
+    },
+    "flarum-locale": {
+      "code": "my",
+      "title": "Bahasa Melayu"
+    }
+  }
 }
