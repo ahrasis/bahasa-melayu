@@ -20,7 +20,7 @@
   "support": {
       "source": "https://github.com/ahrasis/bahasa-melayu",
       "issues": "https://github.com/ahrasis/bahasa-melayu/issues",
-      "site": "httpa\s://flarum.sch.my"
+      "site": "https://flarum.sch.my"
   },
   "require": {
     "flarum/core": "^0.1.0-beta.8"
