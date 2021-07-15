@@ -28,7 +28,6 @@ core:
       favicon_text: Muatnaik imej untuk dipaparkan sebagai ikon pintasan forum.
       logo_heading: Logo
       logo_text: Muatnaik imej untuk dipaparkan menggantikan nama forum.
-      submit_button: => core.ref.save_changes
       title: Penampilan
 
     # These translations are used in the Basics page.
@@ -42,12 +41,11 @@ core:
       forum_description_text: Isikan satu, dua ayat menerangkan tentang komuniti anda. Ini akan kelihatan dalam tag meta dan menonjol dalam enjin carian.
       forum_title_heading: Nama Forum
       home_page_heading: Laman Utama
-      home_page_text: "Pilih laman utama yang akan dilihat ketika pengguna melawat forum anda."
+      home_page_text: Pilih laman utama yang akan dilihat ketika pengguna melawat forum anda.
       saved_message: Ubahsuai anda berjaya disimpan.
       show_language_selector_label: Papar Pilihan Bahasa
       slug_driver_heading: "Pemacu Slug: {model}"
       slug_driver_text: Pilih pemacu yang akan digunakan untuk slugging model ini.
-      submit_button: => core.ref.save_changes
       title: Basic
       welcome_banner_heading: Tajuk Rentang Aluan
       welcome_banner_text: Tentukan kata-kata untuk dipaparkan dalam rentang aluan pada laman Semua Diskusi. Gunakannya bagi mengucap selamat datang kepada tetamu forum anda.
@@ -55,6 +53,8 @@ core:
     # These translations are used in the Dashboard page.
     dashboard:
       clear_cache_button: Bersih Cache
+      description: Forum anda sekilas pandang.
+      title: Papan Utama
       tools_button: Alatan
 
     # These translations are used in the Edit Custom CSS modal dialog.
@@ -74,14 +74,14 @@ core:
       color_label: => core.ref.color
       delete_button: Padam Grup
       delete_confirmation: "Anda pasti mahu memadamkan grup ini? Ahli grup tidak akan dipadam."
-      hide_label: Sembunyikan di forum
+      hide_label: Sembunyi di forum
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       name_label: Nama
       plural_placeholder: Ramai (cth. Mods)
       singular_placeholder: Seorang (cth. Mod)
       submit_button: => core.ref.save_changes
-      title: Cipta Grup
+      title: Tubuh Grup
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
@@ -91,36 +91,35 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: Akaun SMTP
       addresses_heading: Alamat
       description: "Tetapan pemacu, pengaturan dan alamat yang akan digunakan forum anda untuk menghantar emel."
       driver_heading: Pilih Pemacu
       driver_label: Pemacu
       from_label: Pengirim
       mail_encryption_label: Enkripsi
-      mail_host_label: Host
+      mail_host_label: Hos
       mail_mailgun_domain_label: Domain
       mail_mailgun_region_label: Kawasan
       mail_mailgun_secret_label: Kunci Rahsia
       mail_password_label: => core.ref.password
       mail_port_label: Port
       mail_username_label: => core.ref.username
-      mailgun_heading: Pengaturan Mailgun
+      mailgun_heading: Tetapan Mailgun
       not_sending_message: Flarum saat ini tidak dapat mengirim emel. Ini sama ada disebabkan oleh pemacu yang dipilih atau kesalahan lain dalam tetapannya.
       send_test_mail_button: Hantar
       send_test_mail_heading: Hantar Emel Ujian
       send_test_mail_success: "Emel ujian berjaya dihantar!"
-      send_test_mail_text: "Ini akan menghantar emel menggunakan konfigurasi di atas ke email Anda, {email}."
+      send_test_mail_text: "Ini akan menghantar emel menggunakan tetapan di atas ke email anda, {email}."
       smtp_heading: Tetapan SMTP
-      submit_button: => core.ref.save_changes
       title: => core.ref.email
 
     # These translations are used in the Extensions page.
     extension:
+      configure_scopes: Skop Tetapan
       confirm_uninstall: Membuka pemasangan akan memadamkan semua entri database dan aset berkaitan dengan sambungan. Apakah anda pasti mahu teruskan?
-      enabled: Aktif
-      enable_to_see: Aktifkan sambungan untuk melihat dan mengubah tetapan.
       disabled: Mati
+      enable_to_see: Aktifkan sambungan untuk melihat dan mengubah tetapan.
+      enabled: Aktif
       info_links:
         discuss: Diskusi
         documentation: Dokumentasi
@@ -131,8 +130,7 @@ core:
       no_permissions: Sambungan ini tiada keizinan.
       no_settings: Sambungan ini tiada tetapan.
       open_modal: Buka Tetapan
-      permissions_title: Keizinan Sambungan
-      saved_message: Ubahsuai anda berjaya disimpan.
+      permissions_title: Keizinan
       uninstall_button: Buka
 
     # These translations are used in the session dropdown menu.
@@ -166,6 +164,8 @@ core:
       email_title: => core.admin.email.description
       permissions_button: => core.admin.permissions.title
       permissions_title: => core.admin.permissions.description
+      userlist_button: => core.admin.users.title
+      userlist_title: => core.admin.users.description
       search_placeholder: Cari Sambungan
 
     # These translations are used in the Permissions page of the admin interface.
@@ -177,9 +177,11 @@ core:
       delete_discussions_label: Padam Diskusi
       delete_posts_forever_label: Padam Pos Selama-lamanya
       delete_posts_label: Edit Dan Padam Pos
-      description: Tetapan siapa yang dapat melihat dan melakukan sesuatu.
+      description: Tentukan siapa boleh melihat dan melakukan sesuatu.
       edit_posts_label: Edit Pos
       edit_users_label: Edit Pengguna
+      edit_users_credentials_label: Edit user credentials
+      edit_users_groups_label: Edit user groups
       global_heading: Semua
       moderate_heading: Moderasi
       new_group_button: Tambah Grup
@@ -188,34 +190,75 @@ core:
       read_heading: Baca
       rename_discussions_label: Ubah Tajuk
       reply_to_discussions_label: Jawab Diskusi 
+      search_users_label: Cari pengguna
       sign_up_label: Daftar
       start_discussions_label: Mulakan Diskusi
       title: Keizinan
-      view_discussions_label: Lihat Diskusi   
-      view_hidden_groups_label: Lihat Lencana Grup Yang Tersembunyi
-      view_last_seen_at_label: Lihat Masa Terakhir Ahli Hadir
-      view_post_ips_label: Lihat Alamat IP Pos
-      view_user_list_label: Lihat Senarai Ahli
+      view_discussions_label: Papar pengguna dan diskusi forum   
+      view_hidden_groups_label: Papar lencana grup tersembunyi
+      view_last_seen_at_label: Selalu paparkan masa terkini ahli
+      view_post_ips_label: Papar alamat IP Pos
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Tiada had  
-      allow_some_minutes_button: "Untuk {count} minit|Untuk {count} minit"
+      allow_some_minutes_button: "{count, plural, one {Untuk # minit} other {Untuk # minit}}"
       allow_ten_minutes_button: Untuk 10 minit
-      allow_until_reply_button: Sehingga ada jawapan lanjut
+      allow_until_reply_button: Sehingga ada jawapan
       everyone_button: Semua
-      members_button: Grup Teras Ahli
+      members_button: => core.group.members
       signup_closed_button: Ditutup
       signup_open_button: Dibuka
       
     # These translations are used in the Settings modal dialog.
     settings:
+      saved_message: Your changes were saved.
       submit_button: => core.ref.save_changes
 
     # These translations are used in image upload buttons.
     upload_image:
       remove_button: => core.ref.remove 
       upload_button: Pilih imej...
+
+    # These translations are used for the users list on the admin dashboard.
+    users:
+      description: Senarai bermuka-surat semua pengguna forum anda.
+
+      grid:
+        columns:
+          edit_user:
+            button: => core.ref.edit
+            title: => core.ref.edit_user
+            tooltip: Edit {username}
+
+          email:
+            title: => core.ref.email
+            visibility_hide: Sembunyikan alamat emel
+            visibility_show: Paparkan alamat emel
+
+          group_badges:
+            no_badges: Tiada
+            title: Grup
+
+          join_time:
+            title: Sertai
+
+          user_id:
+            title: ID
+
+          username:
+            profile_link_tooltip: Layari profil {username}
+            title: => core.ref.username
+
+        invalid_column_content: Invalid
+
+      pagination:
+        back_button: Kembali
+        next_button: Seterusnya
+        page_counter: Laman {current} daripada {total}
+
+      title: => core.ref.users
+      total_users: "Jumlah pengguna: {count}"
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -231,7 +274,7 @@ core:
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Hantar
+      send_button: Hantar Emel Tukar Kata Laluan
       text: Klik butang di bawah dan semak emel anda untuk pautan bagi mengubah kata laluan anda.
       title: => core.ref.change_password
 
@@ -245,15 +288,15 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Mulakan diskusi anda...         
+      body_placeholder: Tulis diskusi anda...         
       discard_confirmation: "Anda masih belum menghantar diskusi ini. Anda mahu menghapuskannya?"
-      submit_button: Pos Diskusi
+      submit_button: Hantar Diskusi
       title: => core.ref.start_a_discussion
       title_placeholder: Tajuk Diskusi
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "Anda belum menyimpan ubahsuai pos anda. Anda mahu membuangnya?"
+      discard_confirmation: "Anda belum menyimpan ubahsuai anda. Anda mahu membuangnya?"
       edited_message: Ubasuai anda telah berjaya.
       post_link: "Pos #{number} dalam {discussion}"
       submit_button: => core.ref.save_changes
@@ -272,13 +315,14 @@ core:
       cannot_reply_button: Tidak Boleh Menjawab
       cannot_reply_text: Anda tiada keizinan bagi menjawab diskusi ini.
       delete_button: => core.ref.delete
-      delete_confirmation: "Anda pasti anda mahu memadamkan diskusi ini?"
+      delete_confirmation: "Apakah anda pasti anda mahu memadamkan diskusi ini?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Jawab
+      log_in_to_reply_button: Log Massuk Bagi Menjawab
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
-
+      toggle_dropdown_accessible_label: Tukar menu jatuhan pilihan diskusi
+      
     # These translations are used in the discussion list.
     discussion_list:
       empty_text: Tiada sebarang diskusi di sini.
@@ -286,20 +330,6 @@ core:
       mark_as_read_tooltip: Tandakan Sudah Dibaca
       replied_text: "{username} menjawab {ago}"
       started_text: "{username} mulakan {ago}"
-      
-    # These translations are used in the Edit User modal dialog (admin function).
-    edit_user:
-      activate_button: Aktifkan Pengguna
-      email_heading: => core.ref.email
-      email_label: => core.ref.email
-      groups_heading: Grup
-      password_heading: => core.ref.password
-      password_label: => core.ref.password
-      set_password_label: Tetapkan Kata Laluan Baru
-      submit_button: => core.ref.save_changes
-      title: Edit Pengguna
-      username_heading: => core.ref.username
-      username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
     forgot_password:
@@ -307,7 +337,7 @@ core:
       email_placeholder: => core.ref.email
       email_sent_message: Kami sudah menghantar emel mengandungi pautan untuk menukar kata laluan anda. Semak folder spam anda jika tidak menerimanya dalam seminit dua lagi.
       not_found_message: Tiada pengguna berdaftar dengan alamat emel tersebut.
-      submit_button: Simpan
+      submit_button: Dapatkan Kata Laluan
       text: Masukkan alamat emel anda untuk pautan bagi menukar kata laluan anda.
       title: Lupa Kata Laluan
 
@@ -315,22 +345,25 @@ core:
     header:
       admin_button: Pengurusan
       back_to_index_tooltip: Kembali Ke Senarai Diskusi
+      locale_dropdown_accessible_label: Tukal bahasa forum
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profil
       search_placeholder: Carian Forum
+      session_dropdown_accessible_label: Tukar menu jatuhan pilihan sesi
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Tidak Boleh Mulakan 
+      cannot_start_discussion_button: Tidak Boleh Mulakan Diskusi
       mark_all_as_read_confirmation: "Anda pasti anda mahu tandakan semua diskusi sudah dibaca?"
-      mark_all_as_read_tooltip: Tandakan semua sudah dibaca.
+      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       meta_title_text: => core.ref.all_discussions
-      refresh_tooltip: Segarkan laman.
+      refresh_tooltip: Segarkan
       start_discussion_button: => core.ref.start_a_discussion
+      toggle_sidenav_dropdown_accessible_label: Tukar menu jatuhan navigasi
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
@@ -338,6 +371,7 @@ core:
       newest_button: Terbaru
       oldest_button: Tertua
       relevance_button: Berkaitan
+      toggle_dropdown_accessible_label: Tukar susunan senarai diskusi
       top_button: Teratas
 
     # These translations are used in the Log In modal dialog.
@@ -346,7 +380,7 @@ core:
       invalid_login_message: Butiran log masuk anda salah.
       password_placeholder: => core.ref.password
       remember_me_label: Ingati Saya
-      sign_up_text: "Tiada akaun? <a>Daftar</a>"
+      sign_up_text: "Tiada akaun? <a>Daftarlah</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: Pengguna atau Emel
@@ -358,6 +392,7 @@ core:
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       mark_as_read_tooltip: Tandai Sudah Dibaca
       title: => core.ref.notifications
+      toggle_dropdown_accessible_label: Lihat notifikasi
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
@@ -374,13 +409,14 @@ core:
       edit_button: => core.ref.edit
       hide_confirmation: "Anda pasti ingin memadamkan pos ini?"
       restore_button: => core.ref.restore
+      toggle_dropdown_accessible_label: Tukar menu jatuhan bagi kawalan pos
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
       now_link: Sekarang
       original_post_link: Pos Asal
       unread_text: "{count} belum dibaca"
-      viewing_text: "{index} dari {count} pos|{index} dari {count} pos"
+      viewing_text: "{count, plural, one {{index} daripada {formattedCount} pos} other {{index} daripada {formattedCount} pos}}"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -415,7 +451,7 @@ core:
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
-    sign_up::
+    sign_up:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       log_in_text: "Sudah ada akaun? <a>Log Masuk</a>"
@@ -430,11 +466,10 @@ core:
       avatar_remove_button: => core.ref.remove
       avatar_upload_button: Muatnaik
       avatar_upload_tooltip: Muatnaik avatar baru
-      bio_placeholder: Tulis sesuatu tentang diri anda
       discussions_link: => core.ref.discussions
       in_discussion_text: "Dalam {discussion}"
       joined_date_text: "Menyertai {ago}"
-      online_text: Bertalian
+      online_text: Di talian
       posts_empty_text: Tiada pos di sini.
       posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
@@ -442,17 +477,18 @@ core:
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Pilihan
+      button: Kawalan
       delete_button: => core.ref.delete
       delete_confirmation: "Anda pasti anda mahu memadamkan pengguna ini? Semua pos pengguna ini akan turut dipadamkan.""
       delete_error_message: "Gagal memadamkan pengguna <i>{username} ({email})</i>."
       delete_success_message: "Pengguna <i>{username} ({email})</i> berjaya dipadamkan."
       edit_button: => core.ref.edit
-
+      toggle_dropdown_accessible_label: Tukar menu jatuhan bagi kawalan pengguna
+      
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Hantar Semula
+      resend_button: Hantar Emel Pengesahan
       sent_message: Dihantar
 
   # Translations in this namespace are used by the forum and admin interfaces.
@@ -462,14 +498,36 @@ core:
     badge:
       hidden_tooltip: Tersembunyi
 
+    # These translations are used in the dropdown component.
+    dropdown:
+      toggle_dropdown_accessible_label: Tukar menu jatuhan
+
+    # These translations are used in the Edit User modal dialog (admin function).
+    edit_user:
+      activate_button: Aktifkan Pengguna
+      email_heading: => core.ref.email
+      email_label: => core.ref.email
+      groups_heading: Grup
+      password_heading: => core.ref.password
+      password_label: => core.ref.password
+      set_password_label: Tetapkan kata laluan
+      submit_button: => core.ref.save_changes
+      title: => core.ref.edit_user
+      username_heading: => core.ref.username
+      username_label: => core.ref.username
+      
     # These translations are displayed as error messages.
     error:
-      dependent_extensions_message: "Tidak dapat mematikan sambungan {extension} hingga kebergantungan sambungan {extensions} ini dimatikan."
+      dependent_extensions_message: "Tidak dapat mematikan {extension} hingga kebergantungan {extensions} ini dimatikan."
       generic_message: "Oops! Ada kesalahan berlaku. Sila segarkan laman ini semula dan cuba lagi."
-      missing_dependencies_message: "Tidak dapat mengaktifkan sambungan {extension} hingga kebergantungan sambungan {extensions} ini diaktifkan."
-      not_found_message: Sumber yang dikehendaki tidak ditemui.
+      missing_dependencies_message: "Tidak dapat mengaktifkan {extension} hingga kebergantungan {extensions} ini diaktifkan."
+      not_found_message: Sumber yang diminta tidak ditemui.
       permission_denied_message: Anda tiada keizinan untuk melakukannya.
       rate_limit_exceeded_message: Anda terlalu cepat. Sila cuba lagi selepas beberapa saat.
+
+    # These translations are used in the loading indicator component.
+    loading_indicator:
+      accessible_label: => core.ref.loading
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -493,7 +551,7 @@ core:
     content:
       javascript_disabled_message: Laman ini seeloknya di layari menggunakan browser moden dengan JavaScript dibenarkan.
       load_error_message: Ada kesalahan berlaku semasa memproses versi penuh laman ini. Cuba paksa-segar laman ini bagi memperbaiki kesalahan itu.
-      loading_text: Memproses...
+      loading_text: => core.ref.loading
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
@@ -508,7 +566,7 @@ core:
       not_authenticated: Anda tidak mempunyai keizinan untuk mengakses laman ini. Cuba lagi dengan log masuk semula.
       not_found: Laman yang diminta tidak ditemui.
       not_found_return_link: "Kembali ke {forum}"
-      permission_denied:  Anda tidak mempunyai keizinan untuk mengakses laman ini.
+      permission_denied:  Anda tiada keizinan untuk mengakses laman ini.
       unknown: Satu kesilapan ketika laman ini diproses.
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
@@ -608,28 +666,30 @@ core:
     delete_forever: Padam Selamanya
     discussions: Diskusi
     edit: Edit
+    edit_user: Edit Pengguna
     email: Emel
-    icon_label: Ikon
+    icon: Icon
     icon_text: "Masukkan nama ikon dari <a>FontAwesome</a>, <em>dengan</em> awalan <code>fa-</code>."
     load_more: Paparkan Lagi
+    loading: Memproses...
     log_in: Log Masuk
     log_out: Log Keluar
     mark_all_as_read: Tandakan Semua Sudah Dibaca
-    next_page: Laman Seterusnya
-    notifications: Pemberitahuan
+    next_page: Seterusnya
+    notifications: Notifikasi
     okay: OK
     password: Kata Laluan
     posts: Pos 
-    previous_page: Laman Terdahulu
+    previous_page: Kembali
     remove: Buang
-    rename: Nama Semula
+    rename: Namakan Semula
     reply: Jawab
     reset_your_password: Set Semula Kata Laluan Anda
     restore: Pulihkan
     save_changes: Simpan
     settings: Tetapan   
     sign_up: Daftar
-    some_others: "{count} lain-lain|{count} lain-lain"
+    some_others: "{count, plural, one {# lain-lain} other {# lain-lain}}"
     start_a_discussion: Mulakan Diskusi
     username: Nama Pengguna
     users: Ahli
