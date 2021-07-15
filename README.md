@@ -54,9 +54,6 @@ Disediakan di bawah lesen MIT. Sila semak fail [lesen](https://github.com/ahrasi
 
 ### Pautan Lain
 
-
-## Useful Links
-
  - [Flarum](https://flarum.org)
  - [Composer](https://getcomposer.org)
  - [Packagist](https://packagist.org)
