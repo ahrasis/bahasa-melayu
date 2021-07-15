@@ -4,19 +4,29 @@ flarum-mentions:
   # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the mentions Settings page.
+    settings:
+      allow_username_format_label: Benarkan format sebut nama pengguna (@pengguna)
+      allow_username_format_text: |
+        Format terkini untuk sebut nama pengguna adalah @"Nama Paparan"#ID.
+        Tetapan ini membolehkan penggunaan format lama @pengguna, namun ia akan diubah ke format baru setelah disimpan.
+
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
-      mention_tooltip: Sebut ahli atau pos
+      mention_tooltip: Sebut nama pengguna atau petik pos
       reply_to_post_text: "Jawapan #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
       post_mentioned_text: "{username} menjawab pos anda"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username} menyebut anda"
+      user_mentioned_text: "{username} menyebut nama anda"
 
     # These translations are displayed beneath individual posts.
     post:
@@ -35,3 +45,38 @@ flarum-mentions:
     # These translations are used in the user profile page and profile popup.
     user:
       mentions_link: Sebut
+
+    # These translations are used in the post mentions
+    post_mention:
+      deleted_text: "[tidak diketahui]"
+
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when a post is replied to
+    post_mentioned:
+      subject: "{replier_display_name} menjawab pos anda dalam {title}"
+      body: |
+        Salam {recipient_display_name}!
+
+        {replier_display_name} menjawab post anda (#{post_number}) dalam {title}.
+
+        {url}
+
+        ---
+
+        {content}
+
+    # These translations are used in emails sent when a user is mentioned
+    user_mentioned:
+      subject: "{mentioner_display_name} mentioned you in {title}"
+      body: |
+        Salam {recipient_display_name}!
+
+        {mentioner_display_name} menyebut nama anda dalam {title}.
+
+        {url}
+
+        ---
+
+        {content}
