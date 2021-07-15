@@ -14,6 +14,7 @@ flarum-flags:
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
+      flag_own_posts_label: Benarkan pengguna untuk menandakan pos sendiri
       guidelines_url_label: URL Panduan Komuniti
       title: Tetapan Tanda
 
@@ -22,13 +23,15 @@ flarum-flags:
 
     # These translations are used by the Flag Post modal dialog.
     flag_post:
-      confirmation_message: Terima kasih kerana menandakan pos ini. Pemudahcara kami akan menyemaknya.
+      confirmation_message: Terima kasih kerana menandakan pos ini. Moderator kami akan menyemaknya.
       dismiss_button: => core.ref.okay
+      reason_details_placeholder: Butiran tambahan (tidak wajib)
       reason_inappropriate_label: Tidak Sesuai
       reason_inappropriate_text: "Pos ini bersifat menyerang, disalahgunakan, atau menyalahi <a>panduan komuniti</a> kami."
+      reason_missing_message: Mohon memberikan butiran lanjut kepada moderator kami.
       reason_off_topic_label: "Lari tajuk"
-      reason_off_topic_text: Pos ini tidak selari dengan diskusi ini dan patut dialih ke diskusi lain.
-      reason_other_label: Lain-lain
+      reason_off_topic_text: Pos ini tidak selari dengan diskusi ini dan patut dipindahkan ke diskusi lain.
+      reason_other_label: Alasan lain (sila jelaskan)
       reason_spam_label: Spam
       reason_spam_text: Pos ini satu pengiklanan.
       submit_button: => flarum-flags.ref.flag_post
@@ -44,8 +47,8 @@ flarum-flags:
     # These translations are used by the frame displayed around flagged posts.
     post:
       dismiss_flag_button: Buang Tanda
-      flagged_by_text: "{username} flagged"
-      flagged_by_with_reason_text: "{username} flagged as {reason}"
+      flagged_by_text: "{username} ditandakan"
+      flagged_by_with_reason_text: "{username} ditandakan sebagai {reason}"
 
     # These translations are used by the post control buttons.
     post_controls:
