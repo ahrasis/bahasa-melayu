@@ -68,7 +68,6 @@ core:
       customize_text: => core.ref.custom_footer_text
       submit_button: => core.ref.save_changes
       title: => core.ref.custom_footer_title
-
     # These translations are used in the Edit Group modal dialog.
     edit_group:
       color_label: => core.ref.color
@@ -223,7 +222,6 @@ core:
     # These translations are used for the users list on the admin dashboard.
     users:
       description: Senarai bermuka-surat semua pengguna forum anda.
-
       grid:
         columns:
           edit_user:
@@ -277,7 +275,6 @@ core:
       send_button: Hantar Emel Tukar Kata Laluan
       text: Klik butang di bawah dan semak emel anda untuk pautan bagi mengubah kata laluan anda.
       title: => core.ref.change_password
-
     # These translations are used by the composer controls.
     composer:
       close_tooltip: Tutup
@@ -479,7 +476,7 @@ core:
     user_controls:
       button: Kawalan
       delete_button: => core.ref.delete
-      delete_confirmation: "Anda pasti anda mahu memadamkan pengguna ini? Semua pos pengguna ini akan turut dipadamkan.""
+      delete_confirmation: "Anda pasti anda mahu memadamkan pengguna ini? Semua pos pengguna ini akan turut dipadamkan."
       delete_error_message: "Gagal memadamkan pengguna <i>{username} ({email})</i>."
       delete_success_message: "Pengguna <i>{username} ({email})</i> berjaya dipadamkan."
       edit_button: => core.ref.edit
@@ -587,7 +584,6 @@ core:
       new_password_label: Kata Laluan Baru
       submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
-
   # Translations in this namespace are used in messages output by the API.
   api:
     invalid_username_message: "Nama pengguna hanya boleh mengandungi huruf, angka dan tanda sengkang."
