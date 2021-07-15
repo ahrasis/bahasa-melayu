@@ -8,7 +8,4 @@
  * yang diedarkan bersama-sama dengan sumber kod ini.
  */
 
-return [
-	new Flarum\Extend\LanguagePack(),
-	(new Flarum\Extend\Frontend('forum'))->css(__DIR__ . '/less/main.less'),
-];
+return new Flarum\Extend\LanguagePack();
