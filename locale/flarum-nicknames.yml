@@ -1,0 +1,24 @@
+flarum-nicknames:
+  admin:
+    permissions:
+      edit_own_nickname_label: Edit nama samaran sendiri
+    settings:
+      max_label: Panjang nama samaran maksima
+      min_label: Panjang nama samaran minima
+      regex_label: Regex untuk pengesahan
+      unique_label: Perlu nama yang unik
+    wrong_driver: Anda harus memilih "nama samaran" sebagai pemacu nama paparan di <a><strong>Laman Asasi</strong></a> agar sambungan ini dilaksanakan.
+  api:
+    invalid_nickname_message: Nama samaran ini tidak sah. Silakan hubungi pengurus forum anda untuk info lanjut tentang tetapan nama samaran.
+  forum:
+    change_nickname:
+      submit_button: => core.ref.save_changes
+      title:  => flarum-nicknames.ref.change_nickname
+    edit_user:
+      nicknames_heading: => flarum-nicknames.ref.change_nickname
+      nicknames_text: Nama samaran
+    settings:
+      change_nickname_button: => flarum-nicknames.ref.change_nickname
+
+  ref:
+    change_nickname: Ubah Nama samaran
