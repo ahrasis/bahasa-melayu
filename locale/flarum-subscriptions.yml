@@ -15,8 +15,12 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Tak Diikuti
-      unignore_button: Tak Diabaikan
+      unfollow_button: Henti Ikuti
+      unignore_button: Henti Abaikan
+
+    # These translations are used on the page that displays all subscriptions.
+    following:
+      meta_title_text: => flarum-subscriptions.ref.following
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,12 +28,13 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} mengepos"
+      new_post_text: "{username} menulis"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Ikuti diskusi yang saya jawab secara automatik
-      notify_new_post_label: Seseorang mengepos dalam diskusi yang saya ikuti
+      follow_after_reply_label: Ikuti diskusi yang saya jawab secara automatik  
+      notify_new_post_label: Ada orang menulis dalam diskusi yang saya ikuti
+                                                                          
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
@@ -40,8 +45,30 @@ flarum-subscriptions:
       ignoring_text: Jangan maklumkan. Sembunyikan daripada senarai diskusi.
       not_following_button: Tidak Mengikuti
       not_following_text: "Maklumkan apabila @disebut sahaja."
-      notify_alert_tooltip: Dapatkan pemberitahuan forum apabila ada pos baru
-      notify_email_tooltip: Dapatkan emel bila ada pos baru
+      notify_alert_tooltip: Dapatkan makluman forum bila ada pos baru     
+      notify_email_tooltip: Dapatkan makluman emel bila ada pos baru
+
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when a post is made in a subscribed discussion
+    new_post:
+      subject: "[Pos Baru] {title}"
+      body: |
+        Salam {recipient_display_name}!
+
+        {poster_display_name} telah menulis dalam diskusi: {title} yang anda ikuti.
+
+        Bagi melihat aktiviti baru selanjutnya, sila layari pautan berikut:
+        {url}
+
+        ---
+
+        {content}
+
+        ---
+
+        Anda tidak akan menerima sebarang makluman lanjut megenai diskusi ini sehingga anda melayarinya.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,6 +76,8 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
+                                                                             
     follow: Ikuti
     following: Diikuti
     ignoring: Diabaikan
+                        
