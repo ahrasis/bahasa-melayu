@@ -47,7 +47,7 @@ Disediakan di bawah lesen MIT. Sila semak fail [lesen](https://github.com/ahrasi
 
 ### Pautan Utama
 
-  - Forum: [Flarum](https://discuss.flarum.org/d/3787-malaysian-language-pack-for-flarum), [flarum.sch.my](https://flarum.sch.my)
+  - Forum: [Bahasa Melayu](https://discuss.flarum.org/d/3787-malaysian-language-pack-for-flarum)
   - Github: [Bahasa Melayu](https://github.com/ahrasis/bahasa-melayu)
   - Packagist: [Bahasa Melayu](https://packagist.org/packages/ahrasis/bahasa-melayu)
   
