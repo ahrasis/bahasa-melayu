@@ -23,14 +23,14 @@ flarum-likes:
     post:
       like_link: Suka
       liked_by_self_text: "{users} suka pos ini."  # Can be pluralized to agree with the number of users!
-      liked_by_text: "{users} suka pos ini.|{users} suka pos ini."
+      liked_by_text: "{count, plural, one {{users} suka pos ini.} other {{users} suka pos ini.}}"
       others_link: => core.ref.some_others
       unlike_link: Buang Suka
       you_text: => core.ref.you
 
     # These translations are used by the Users Who Like This modal dialog.
     post_likes:
-      title: Ahli Yang Suka Pos Ini
+      title: Pengguna Yang Suka Pos Ini
 
     # These translations are used in the Settings page.
     settings:
