@@ -12,8 +12,9 @@ flarum-markdown:
       bold_tooltip: Tambah teks tebal
       code_tooltip: Masukkan Kod
       header_tooltip: Tambah teks kepala
+      image_tooltip: Tambah imej
       italic_tooltip: Tambah teks senget
       link_tooltip: Tambah pautan
       ordered_list_tooltip: Tambah senarai bernombor
       quote_tooltip: Masukkan ungkapan
-unordered_list_tooltip: Tambah senarai berbulet
+      unordered_list_tooltip: Tambah senarai berbulet
