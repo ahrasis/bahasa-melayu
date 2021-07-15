@@ -27,14 +27,14 @@ core:
       custom_styles_text: Ubahsuai penampilan forum anda dengan menambah kod LESS/CSS anda sendiri bagi digunapakai ke atas gaya asal Flarum.
       dark_mode_label: Mod Gelap
       edit_css_button: Edit CSS Tambahan
-      edit_footer_button: => Edit Kaki Forum
-      edit_header_button: => Edit Kepala Forum
+      edit_footer_button: Edit Kaki Forum
+      edit_header_button: Edit Kepala Forum
       enter_hex_message: Masukkan kod warna hexadecimal.
       favicon_heading: Favicon
       favicon_text: Muatnaik imej untuk dipaparkan sebagai ikon pintasan forum.
       logo_heading: Logo
       logo_text: Muatnaik imej untuk dipaparkan menggantikan nama forum.
-      submit_button: => Simpan
+      submit_button: Simpan
       title: Penampilan
 
     # These translations are used in the Basics page.
@@ -53,7 +53,7 @@ core:
       show_language_selector_label: Papar Pilihan Bahasa
       slug_driver_heading: "Pemacu Slug: {model}"
       slug_driver_text: Pilih pemacu yang akan digunakan untuk slugging model ini.
-      submit_button: => Simpan
+      submit_button: Simpan
       title: Basic
       welcome_banner_heading: Tajuk Rentang Aluan
       welcome_banner_text: Tentukan kata-kata untuk dipaparkan dalam rentang aluan pada laman Semua Diskusi. Gunakannya bagi mengucap selamat datang kepada tetamu forum anda.
@@ -66,7 +66,7 @@ core:
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
       customize_text: "Ubahsuai penampilan forum anda dengan menambah kod LESS/CSS anda sendiri bagi digunapakai ke atas <a>gaya asal</a> Flarum."
-      submit_button: => Simpan
+      submit_button: Simpan
       title: Edit CSS Tambahan
 
     # These translations are used in the Edit Custom Footer modal dialog.
@@ -85,7 +85,7 @@ core:
       name_label: Nama
       plural_placeholder: Ramai (cth. Mods)
       singular_placeholder: Seorang (cth. Mod)
-      submit_button: => Simpan
+      submit_button: Simpan
       title: Cipta Grup
 
     # These translations are used in the Edit Custom Header modal dialog.
@@ -98,7 +98,7 @@ core:
     email:
       account_heading: Akaun SMTP
       addresses_heading: Alamat
-      description: "Tetapan pemacu, pengaturan dan alamat yang akan digunakan forum anda untuk menghantar emel."    ."
+      description: "Tetapan pemacu, pengaturan dan alamat yang akan digunakan forum anda untuk menghantar emel."
       driver_heading: Pilih Pemacu
       driver_label: Pemacu
       from_label: Pengirim
@@ -107,9 +107,9 @@ core:
       mail_mailgun_domain_label: Domain
       mail_mailgun_region_label: Kawasan
       mail_mailgun_secret_label: Kunci Rahsia
-      mail_password_label: => Kata Laluan
+      mail_password_label: Kata Laluan
       mail_port_label: Port
-      mail_username_label: => Pengguna
+      mail_username_label: Pengguna
       mailgun_heading: Pengaturan Mailgun
       not_sending_message: Flarum saat ini tidak dapat mengirim emel. Ini sama ada disebabkan oleh pemacu yang dipilih atau kesalahan lain dalam tetapannya.
       send_test_mail_button: Hantar
@@ -117,8 +117,8 @@ core:
       send_test_mail_success: "Emel ujian berjaya dihantar!"
       send_test_mail_text: "Ini akan menghantar emel menggunakan konfigurasi di atas ke email Anda, {email}."
       smtp_heading: Pengaturan SMTP
-      submit_button: => Simpan
-      title: => Emel
+      submit_button: Simpan
+      title: Emel
 
     # These translations are used in the Extensions page.
     extensions:
@@ -143,7 +143,7 @@ core:
     # These translations are used in the session dropdown menu.
     header:
       get_help: Bantuan  
-      log_out_button: => Keluar
+      log_out_button: Keluar
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
@@ -234,13 +234,13 @@ core:
       dismiss_button: Hapus
       incorrect_password_message: Kata laluan yang anda masukkan salah.
       submit_button: Simpan
-      title: => Tetapan Emel
+      title: Tetapan Emel
 
     # These translations are used in the Change Password modal dialog.
     change_password:
       send_button: Hantar Emel Reset Kata Laluan
       text: Klik butang di bawah dan semak emel anda untuk pautan bagi mengubah kata laluan anda.
-      title: => Tetapan Kata Laluan
+      title: Tetapan Kata Laluan
 
     # These translations are used by the composer controls.
     composer:
@@ -282,9 +282,9 @@ core:
       delete_confirmation: "Anda pasti anda mahu memadamkan diskusi ini?"
       delete_forever_button: Padam Selamanya
       log_in_to_reply_button: Log Masuk Bagi Menjawab
-      rename_button: => Tukar Tajuk
-      reply_button: => Jawab
-      restore_button: => Pulihkan
+      rename_button: Tukar Tajuk
+      reply_button: Jawab
+      restore_button: Pulihkan
 
     # These translations are used in the discussion list.
     discussion_list:
@@ -325,7 +325,7 @@ core:
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profil
-      search_placeholder: Carian Forum   
+      search_placeholder: Carian Forum
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
