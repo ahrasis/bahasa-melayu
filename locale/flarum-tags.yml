@@ -18,53 +18,73 @@ flarum-tags:
       delete_tag_confirmation: "Anda pasti mahu memadamkan tag ini? Tag Diskusi tidak akan dipadam."
       description_label: Deskripsi
       hide_label: Sembunyikan daripada Semua Diskusi
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: Slug
       submit_button: => core.ref.save_changes
-      title: => flarum-tags.ref.create_tag
+      title: => Buat Tag
 
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
       tags_text: Urus senarai tag yang ada bagi menyusun diskusi.
+                                                                           
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
+                                                
       allow_edit_tags_label: Edit Tag
+      bypass_tag_counts_label: Atasi tetapan tag
       restrict_by_tag_heading: Sekat Dengan Tag
+                                                
       tag_discussions_label: Tag Diskusi
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
       range_separator_text: " kepada "
+                                      
       required_primary_heading: Nombor Yang Diperlukan Bagi Tag Utama
       required_primary_text: Masukkan minima dan maksima nombor tag utama yang boleh digunakan dalam satu diskusi.
+                                                                                                                        
+                                                                                                           
       required_secondary_heading: Nombor Yang Diperlukan Bagi Tag Sampingan
       required_secondary_text: Masukkan minima dan maksima nombor tag sampingan yang boleh digunakan dalam satu diskusi.
+                                                                                                                            
+                                                                                                             
       title: Tetapan Tag
 
     # These translations are used in the Tags page.
     tags:
       about_tags_text: "Tag digunakan bagi mengkategorikan diskusi. Tag utama adalah seperti kategori forum tradisional, yang boleh diatur dalam dua peringkat. Tag sampingan tiada peringkat atau aturan, tetapi sangat berguna untuk kategori mikro."
-      create_tag_button: => flarum-tags.ref.create_tag
+      create_primary_tag_button: Buat Tag Utama
+      create_secondary_tag_button: Buat Tag Anak
       primary_heading: Tag Utama
-      secondary_heading: Tag Sampingan
+      secondary_heading: Tag Anak
       settings_button: Tetapan
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
+    # These translations are displayed on the page that lists all tags.
+    all_tags:
+      meta_description_text: Semua Tag
+      meta_title_text: => flarum-tags.ref.tags
+
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Pilih satu tag utama|Pilih {count} tag utama"
-      choose_secondary_placeholder: "Pilih satu lagi tag|Pilih {count} lagi tag"
+      choose_primary_placeholder: "{count, plural, one {Pilih satu tag utama} other {pilih # tag utama}}"
+      choose_secondary_placeholder: "{count, plural, one {Pilih satu lagi tag} other {Pilih # lagi tag}}"
       edit_title: "Edit Tag Bagi {title}"
+                                          
       submit_button: => core.ref.okay
+                                              
       title: Pilih Tag Bagi Diskusi Anda
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
+                                     
       choose_tags_link: Pilih Tag
 
     # These translations are used by the discussion control buttons.
@@ -76,29 +96,39 @@ flarum-tags:
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      more_link: More...
+      more_link: Lagi...
       tags_link: => flarum-tags.ref.tags
       untagged_link: Buang Tag
+                              
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} menambah {tagsAdded}."
       added_and_removed_tags_text: "{username} menambah {tagsAdded} dan membuang {tagsRemoved}."
+                                                                                                    
+      added_tags_text: "{username} menambah {tagsAdded}."
+                                                            
       removed_tags_text: "{username} membuang {tagsRemoved}."
-      tags_text: "{tags} tag|{tags} tag"
+                                                              
+      tags_text: "{count, plural, one {{tags} tag} other {{tags} tag}}"
 
-  # Translations in this namespace are used by the forum and admin interfaces.
-  lib:
+    # These translations are used when visiting a single tag's discussion list.
+    tag:
+                                                                   
+      meta_description_text: "Semua diskusi dengan tag {tag}"
+      
+    # Translations in this namespace are used by the forum and admin interfaces.
+    lib:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
     deleted_tag_text: Dipadamkan
+                             
 
-  ##
-  # REUSED TRANSLATIONS - These keys should not be used directly in code!
-  ##
+    ##
+    # REUSED TRANSLATIONS - These keys should not be used directly in code!
+    ##
 
-  # Translations in this namespace are referenced by two or more unique keys.
-  ref:
-    create_tag: Cipta Tag
-    name: Nama
-tags: Tag
+    # Translations in this namespace are referenced by two or more unique keys.
+    ref:
+    
+        name: Nama
+        tags: Tag
