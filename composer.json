@@ -1,43 +1,51 @@
 {
-  "name": "ahrasis/flarum-ext-malaysian",
-  "description": "Bahasa Melayu untuk Flarum v0.1.0-beta.8 ke atas",
-  "keywords": [
-    "flarum",
-    "locale",
-    "Bahasa",
-    "Malaysia",
-    "Melayu"
-  ],
-  "type": "flarum-extension",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Hj Ahmad Rasyid Hj Ismail",
-      "email": "ahrasis@gmail.com",
-      "homepage": "https://flarum.sch.my"
-    }
-  ],
-  "support": {
-      "source": "https://github.com/ahrasis/bahasa-melayu",
-      "issues": "https://github.com/ahrasis/bahasa-melayu/issues",
-      "site": "https://flarum.sch.my"
-  },
-  "require": {
-    "flarum/core": "^0.1.0-beta.8"
-  },
-  "extra": {
-    "flarum-extension": {
-      "title": "Bahasa Melayu",
-        "icon": {
-          "image": "icon.svg",
-          "backgroundColor": "#00247d",
-          "backgroundSize": "cover",
-          "backgroundPosition": "center"
-        }
-    },
-    "flarum-locale": {
-      "code": "my",
-      "title": "Bahasa Melayu"
-    }
-  }
+	"name": "ahrasis/bahasa-melayu",
+	"description": "Pakej Bahasa Melayu untuk Flarum",
+	"keywords": [
+		"flarum",
+		"locale",
+		"ahrasis",
+		"bahasa",
+		"bahasa-malaysia",
+		"bahasa-melayu",
+		"malaysia",
+		"melayu"
+	],
+	"type": "flarum-extension",
+	"license": "MIT",
+	"authors": [
+		{
+		  "name": "Hj Ahmad Rasyid Hj Ismail",
+		  "email": "ahrasis@gmail.com",
+		  "homepage": "https://discuss.flarum.org/d/3787-malaysian-language-pack-for-flarum"
+		}
+	],
+	"support": {
+	  "source": "https://github.com/ahrasis/bahasa-melayu",
+	  "issues": "https://github.com/ahrasis/bahasa-melayu/issues",
+	  "site": "https://discuss.flarum.org/d/3787-malaysian-language-pack-for-flarum"
+	},
+	"require": {
+		"flarum/core": "^1.0"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"flarum-extension": {
+			"title": "Bahasa Melayu",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundColor": "#00247d",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "ms",
+			"title": "Bahasa Melayu"
+		}
+		"extiverse": {
+			"discuss": "https://discuss.flarum.org/d/3787-malaysian-language-pack-for-flarum"
+		}
+	}
 }
