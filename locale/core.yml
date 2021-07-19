@@ -12,15 +12,15 @@ core:
       colored_header_label: Kepala Berwarna
       colors_heading: Warna
       colors_text: "Pilih dua warna untuk menghiasi tema forum anda. Yang pertama digunakan bagi warna pencerahan, manakala yang kedua digunakan bagi menggayakan elemen latar belakang."
-      custom_footer_heading: Kaki Tambahan
+      custom_footer_heading: Kaki Suaian
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: Kepala Tambahan
+      custom_header_heading: Kepala Suaian
       custom_header_text: => core.ref.custom_header_text
-      custom_styles_heading: Gaya Tambahan
-      custom_styles_text: Ubahsuai penampilan forum anda dengan menambah kod LESS/CSS anda sendiri bagi digunapakai ke atas gaya asal Flarum.
+      custom_styles_heading: Gaya Suaian
+      custom_styles_text: Ubahsuai penampilan forum dengan menambah kod LESS/CSS anda sendiri untuk digunapakai ke atas gaya asal Flarum.
       dark_mode_label: Mod Gelap
-      description: "Sesuaikan warna forum, logo, dan pemboleh-ubah lainnya."
-      edit_css_button: Edit CSS Tambahan
+      description: "Sesuaikan warna forum, logo dan pemboleh-ubah lainnya."
+      edit_css_button: Edit CSS Suaian
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
       enter_hex_message: Masukkan kod warna hexadecimal.
@@ -33,8 +33,8 @@ core:
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Bahasa Asas
-      description: "Tetapkan nama forum anda, bahasa, dan tetapan asas yang lain."
+      default_language_heading: Bahasa Asasi
+      description: "Tetapkan nama forum anda, bahasa, dan tetapan asasi yang lain."
       display_name_heading: Nama Pengguna Yang Dipaparkan
       display_name_text: Pilih tetapan yang hendak digunakan untuk nama pengguna yang dipaparkan. Secara asasi, nama pengguna dipaparkan.              
       forum_description_heading: Keterangan Forum
@@ -44,11 +44,11 @@ core:
       home_page_text: Pilih laman utama yang akan dilihat ketika pengguna melawat forum anda.
       saved_message: Ubahsuai anda berjaya disimpan.
       show_language_selector_label: Papar Pilihan Bahasa
-      slug_driver_heading: "Pemacu Slug: {model}"
-      slug_driver_text: Pilih pemacu yang akan digunakan untuk slugging model ini.
-      title: Basic
+      slug_driver_heading: "Pemacu Identifikasi: {model}"
+      slug_driver_text: Pilih pemacu yang akan digunakan untuk model identifikasi ini.
+      title: Asasi
       welcome_banner_heading: Tajuk Rentang Aluan
-      welcome_banner_text: Tentukan kata-kata untuk dipaparkan dalam rentang aluan pada laman Semua Diskusi. Gunakannya bagi mengucap selamat datang kepada tetamu forum anda.
+      welcome_banner_text: Tentukan kata-kata untuk dipaparkan dalam rentang aluan pada pilihan Semua Diskusi. Gunakannya bagi mengucap selamat datang kepada tetamu forum anda.
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -61,7 +61,7 @@ core:
     edit_css:
       customize_text: "Ubahsuai penampilan forum anda dengan menambah kod LESS/CSS anda sendiri bagi digunapakai ke atas <a>gaya asal</a> Flarum."
       submit_button: => core.ref.save_changes
-      title: Edit CSS Tambahan
+      title: Edit CSS Suaian
 
     # These translations are used in the Edit Custom Footer modal dialog.
     edit_footer:
@@ -116,7 +116,7 @@ core:
     extension:
       configure_scopes: Skop Tetapan
       confirm_uninstall: Membuka pemasangan akan memadamkan semua entri database dan aset berkaitan dengan sambungan. Apakah anda pasti mahu teruskan?
-      disabled: Mati
+      disabled: Dilumpuhkan
       enable_to_see: Aktifkan sambungan untuk melihat dan mengubah tetapan.
       enabled: Aktif
       info_links:
@@ -655,9 +655,9 @@ core:
     confirm_password: Sahkan Kata Laluan
     confirmation_email_sent: "Kami telah menghantar emel pengesahan ke {email}. Sekiranya tidak sampai lagi, sila semak folder spam anda."
     custom_footer_text: Tambah HTML untuk dipaparkan pada sebelah bawah kaki laman.
-    custom_footer_title: Edit Kaki Tambahan
+    custom_footer_title: Edit Kaki Suaian
     custom_header_text: "Tambah HTML untuk dipaparkan pada sebelah atas laman, atas daripada kepala forum."
-    custom_header_title: Edit Kepala Tambahan
+    custom_header_title: Edit Kepala Suaian
     delete: Padam
     delete_forever: Padam Selamanya
     discussions: Diskusi

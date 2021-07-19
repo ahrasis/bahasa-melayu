@@ -106,7 +106,7 @@ validation:
     email: emel
     title: tajuk
     content: isi
-    name_singular: nama singular
-    name_plural: nama plural
-    tag_count_primary: nombor tag utama
-    tag_count_secondary: nombor tag kedua
+    name_singular: nama tunggal
+    name_plural: nama jamak
+    tag_count_primary: nombor tag induk
+    tag_count_secondary: nombor tag anak
