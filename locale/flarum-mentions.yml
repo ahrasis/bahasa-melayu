@@ -11,7 +11,7 @@ flarum-mentions:
     settings:
       allow_username_format_label: Benarkan format sebut nama pengguna (@pengguna)
       allow_username_format_text: |
-        Format terkini untuk sebut nama pengguna adalah @"Nama Paparan"#ID.
+        Format terkini untuk sebut nama pengguna adalah @"Nama Paparan"#ID Pengguna.
         Tetapan ini membolehkan penggunaan format lama @pengguna, namun ia akan diubah ke format baru setelah disimpan.
 
   # Translations in this namespace are used by the forum user interface.

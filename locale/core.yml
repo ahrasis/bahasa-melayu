@@ -72,7 +72,7 @@ core:
     edit_group:
       color_label: => core.ref.color
       delete_button: Padam Grup
-      delete_confirmation: "Anda pasti mahu memadamkan grup ini? Ahli grup tidak akan dipadam."
+      delete_confirmation: "Anda pasti mahu memadamkan grup ini? Pengguna grup tidak akan dipadam."
       hide_label: Sembunyi di forum
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
@@ -100,9 +100,9 @@ core:
       mail_mailgun_domain_label: Domain
       mail_mailgun_region_label: Kawasan
       mail_mailgun_secret_label: Kunci Rahsia
-      mail_password_label: => core.ref.password
+      mail_password_label: Kata Laluan
       mail_port_label: Port
-      mail_username_label: => core.ref.username
+      mail_username_label: Nama Pengguna
       mailgun_heading: Tetapan Mailgun
       not_sending_message: Flarum saat ini tidak dapat mengirim emel. Ini sama ada disebabkan oleh pemacu yang dipilih atau kesalahan lain dalam tetapannya.
       send_test_mail_button: Hantar
@@ -195,7 +195,7 @@ core:
       title: Keizinan
       view_discussions_label: Papar pengguna dan diskusi forum   
       view_hidden_groups_label: Papar lencana grup tersembunyi
-      view_last_seen_at_label: Selalu paparkan masa terkini ahli
+      view_last_seen_at_label: Selalu paparkan masa terkini pengguna
       view_post_ips_label: Papar alamat IP Pos
 
     # These translations are used in the dropdown menus on the Permissions page.
@@ -242,11 +242,11 @@ core:
             title: Sertai
 
           user_id:
-            title: ID
+            title: ID Pengguna
 
           username:
             profile_link_tooltip: Layari profil {username}
-            title: => core.ref.username
+            title: Nama Pengguna
 
         invalid_column_content: Invalid
 
@@ -375,7 +375,7 @@ core:
     log_in:
       forgot_password_link: "Lupa kata laluan?"
       invalid_login_message: Butiran log masuk anda salah.
-      password_placeholder: => core.ref.password
+      password_placeholder: Kata Laluan
       remember_me_label: Ingati Saya
       sign_up_text: "Tiada akaun? <a>Daftarlah</a>"
       submit_button: => core.ref.log_in
@@ -452,10 +452,10 @@ core:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       log_in_text: "Sudah ada akaun? <a>Log Masuk</a>"
-      password_placeholder: => core.ref.password
+      password_placeholder: Kata Laluan
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
-      username_placeholder: => core.ref.username
+      username_placeholder: Nama Pengguna
       welcome_text: "Selamat datang, {username}!"
 
     # These translations are used in the user profile page and profile popup.
@@ -505,13 +505,13 @@ core:
       email_heading: => core.ref.email
       email_label: => core.ref.email
       groups_heading: Grup
-      password_heading: => core.ref.password
-      password_label: => core.ref.password
+      password_heading: Kata Laluan
+      password_label: Kata Laluan
       set_password_label: Tetapkan kata laluan
       submit_button: => core.ref.save_changes
       title: => core.ref.edit_user
-      username_heading: => core.ref.username
-      username_label: => core.ref.username
+      username_heading: Nama Pengguna
+      username_label: Nama Pengguna
       
     # These translations are displayed as error messages.
     error:
@@ -688,7 +688,7 @@ core:
     some_others: "{count, plural, one {# lain-lain} other {# lain-lain}}"
     start_a_discussion: Mulakan Diskusi
     username: Nama Pengguna
-    users: Ahli
+    users: Pengguna
     View: Lihat
     write_a_reply: Tulis Jawapan...
     you: Anda
@@ -703,7 +703,7 @@ core:
     admins: Pengurus
     guest: Tetamu
     guests: Tetamu
-    member: Ahli
-    members: Ahli
+    member: Pengguna
+    members: Pengguna
     mod: Moderator
     mods: Moderator

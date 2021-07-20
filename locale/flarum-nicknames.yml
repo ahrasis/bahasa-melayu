@@ -13,12 +13,12 @@ flarum-nicknames:
   forum:
     change_nickname:
       submit_button: => core.ref.save_changes
-      title:  => flarum-nicknames.ref.change_nickname
+      title:  Nama Samaran
     edit_user:
-      nicknames_heading: => flarum-nicknames.ref.change_nickname
+      nicknames_heading: Nama Samaran
       nicknames_text: Nama samaran
     settings:
-      change_nickname_button: => flarum-nicknames.ref.change_nickname
+      change_nickname_button: Nama Samaran
 
   ref:
     change_nickname: Ubah Nama samaran

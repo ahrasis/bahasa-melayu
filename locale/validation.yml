@@ -101,12 +101,12 @@ validation:
   uuid: ":attribute mestilah UUID yang sah."
 
   attributes:
-    username: nama ahli
-    password: kata laluan
-    email: emel
-    title: tajuk
-    content: isi
-    name_singular: nama tunggal
-    name_plural: nama jamak
+    username: Nama Pengguna
+    password: Kata Laluan
+    email: Emel
+    title: Tajuk
+    content: Isi
+    name_singular: Nama Tunggal
+    name_plural: Nama Jamak
     tag_count_primary: nombor tag induk
     tag_count_secondary: nombor tag anak
