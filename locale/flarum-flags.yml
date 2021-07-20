@@ -9,37 +9,37 @@ flarum-flags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts_label: Tandakan pos
-      view_flags_label: Lihat Pos Bertanda
+      flag_posts_label: Buat Aduan
+      view_flags_label: Siasat Aduan
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
-      flag_own_posts_label: Benarkan pengguna untuk menandakan pos sendiri
+      flag_own_posts_label: Benarkan pengguna mengadu pos sendiri
       guidelines_url_label: URL Panduan Komuniti
-      title: Tetapan Tanda
+      title: Tetapan Aduan
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Flag Post modal dialog.
     flag_post:
-      confirmation_message: Terima kasih kerana menandakan pos ini. Moderator kami akan menyemaknya.
+      confirmation_message: Terima kasih kerana mengadukan pos ini. Moderator kami akan membuat siasatan.
       dismiss_button: => core.ref.okay
       reason_details_placeholder: Butiran tambahan (tidak wajib)
       reason_inappropriate_label: Tidak Sesuai
-      reason_inappropriate_text: "Pos ini bersifat menyerang, disalahgunakan, atau menyalahi <a>panduan komuniti</a> kami."
+      reason_inappropriate_text: "Pos ini bersifat menyerang, disalahgunakan, atau menyalahi <a>panduan komuniti</a> ini."
       reason_missing_message: Mohon memberikan butiran lanjut kepada moderator kami.
-      reason_off_topic_label: "Lari tajuk"
+      reason_off_topic_label: Lari Tajuk
       reason_off_topic_text: Pos ini tidak selari dengan diskusi ini dan patut dipindahkan ke diskusi lain.
       reason_other_label: Alasan lain (sila jelaskan)
-      reason_spam_label: Spam
-      reason_spam_text: Pos ini satu pengiklanan.
+      reason_spam_label: "Sampah Iklan"
+      reason_spam_text: Pos ini keseluruhannya atau kebanyakannya adalah sampah atau pengiklanan.
       submit_button: => flarum-flags.ref.flag_post
       title: => flarum-flags.ref.flag_post
 
     # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
     flagged_posts:
-      empty_text: Tiada Tanda
+      empty_text: Tiada Aduan
       item_text: "{username} dalam <em>{discussion}</em>"
       title: => flarum-flags.ref.flagged_posts
       tooltip: => flarum-flags.ref.flagged_posts
@@ -52,7 +52,7 @@ flarum-flags:
 
     # These translations are used by the post control buttons.
     post_controls:
-      flag_button: Tanda
+      flag_button: Aduan
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -60,5 +60,5 @@ flarum-flags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    flag_post: Tandakan Pos
-    flagged_posts: Pos Bertanda
+    flag_post: Adukan Pos
+    flagged_posts: Dalam Siasatan
