@@ -17,7 +17,7 @@ flarum-tags:
       delete_tag_button: Padam Tag
       delete_tag_confirmation: "Anda pasti mahu memadamkan tag ini? Tag Diskusi tidak akan dipadam."
       description_label: Deskripsi
-      hide_label: Sembunyikan daripada Semua Diskusi
+      hide_label: Sembunyi daripada Semua Diskusi
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       name_label: Nama

@@ -195,7 +195,7 @@ core:
       title: Keizinan
       view_discussions_label: Papar pengguna dan diskusi forum   
       view_hidden_groups_label: Papar lencana grup tersembunyi
-      view_last_seen_at_label: Selalu paparkan masa terkini pengguna
+      view_last_seen_at_label: Papar masa terakhir pengguna
       view_post_ips_label: Papar alamat IP Pos
 
     # These translations are used in the dropdown menus on the Permissions page.
@@ -231,8 +231,8 @@ core:
 
           email:
             title: => core.ref.email
-            visibility_hide: Sembunyikan alamat emel
-            visibility_show: Paparkan alamat emel
+            visibility_hide: Sembunyi alamat emel
+            visibility_show: Papar alamat emel
 
           group_badges:
             no_badges: Tiada
@@ -242,7 +242,7 @@ core:
             title: Sertai
 
           user_id:
-            title: ID Pengguna
+            title: ID
 
           username:
             profile_link_tooltip: Layari profil {username}
@@ -666,7 +666,7 @@ core:
     email: Emel
     icon: Icon
     icon_text: "Masukkan nama ikon dari <a>FontAwesome</a>, <em>dengan</em> awalan <code>fa-</code>."
-    load_more: Paparkan Lagi
+    load_more: Papar Lagi...
     loading: Memproses...
     log_in: Log Masuk
     log_out: Log Keluar
