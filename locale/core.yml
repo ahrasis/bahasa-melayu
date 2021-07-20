@@ -184,13 +184,13 @@ core:
       global_heading: Semua
       moderate_heading: Moderasi
       new_group_button: Tambah Grup
-      participate_heading: Sertai
+      participate_heading: Tarikh Masuk
       post_without_throttle_label: Jawab beberapa kali tanpa menunggu
       read_heading: Baca
       rename_discussions_label: Ubah Tajuk
       reply_to_discussions_label: Jawab Diskusi 
       search_users_label: Cari pengguna
-      sign_up_label: Daftar
+      sign_up_label: Pendaftaran
       start_discussions_label: Mulakan Diskusi
       title: Keizinan
       view_discussions_label: Papar pengguna dan diskusi forum   
@@ -239,7 +239,7 @@ core:
             title: Grup
 
           join_time:
-            title: Sertai
+            title: Tarikh Masuk
 
           user_id:
             title: ID
