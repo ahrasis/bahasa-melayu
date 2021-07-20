@@ -179,8 +179,8 @@ core:
       description: Tentukan siapa boleh melihat dan melakukan sesuatu.
       edit_posts_label: Edit Pos
       edit_users_label: Edit Pengguna
-      edit_users_credentials_label: Edit user credentials
-      edit_users_groups_label: Edit user groups
+      edit_users_credentials_label: Edit Tauliah Pengguna
+      edit_users_groups_label: Edit Grup Pengguna
       global_heading: Semua
       moderate_heading: Moderasi
       new_group_button: Tambah Grup
@@ -193,7 +193,7 @@ core:
       sign_up_label: Pendaftaran
       start_discussions_label: Mulakan Diskusi
       title: Keizinan
-      view_discussions_label: Papar pengguna dan diskusi forum   
+      view_forum_label: Papar pengguna dan diskusi forum   
       view_hidden_groups_label: Papar lencana grup tersembunyi
       view_last_seen_at_label: Papar masa terakhir pengguna
       view_post_ips_label: Papar alamat IP Pos
